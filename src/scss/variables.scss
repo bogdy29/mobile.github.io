@@ -1,0 +1,28 @@
+$white: #FFFFFF;
+$primary:       #1C344C;
+$secondary:     #19B293;
+
+// Your variable overrides bootstrap
+$font-family-base:  'Segoe UI';
+$body-bg: #1C344C;
+$input-bg: transparent;
+$input-height: 45px;
+$input-placeholder-color: #57687A;
+$input-color: #FFFFFF;
+$input-font-size: 18px;
+
+$theme-colors: (
+        "primary": #19B293
+);
+
+.btn-fixed{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0 !important;
+  color: #ffffff !important;
+  background: $secondary !important;
+  font-weight: 300;
+  height: 55px;
+}
